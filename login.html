@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <title>JOSD</title>
+    <link rel="shortcut icon" type="icon" class="icono" href="imagenes/tecnologia-verde.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="Estilos/login.css">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo" >
+          <img src="imagenes/LOGOJOSD.jpg" alt="logo de la tienda">
+      </a>
+    </header>
+    <main>
+      <section>
+        <div class="div" >
+          <h1>iniciar sesión</h1>
+          <form action="index_usuario.html" class="" id="formulario" >
+            <div class=""  id="grupo__usuario">
+              <div class="formulario__grupo-input">
+                <input id="novacio" name="usuario" type="text" class="name" placeholder="ingresa tu usuario">
+                <!-- <span id="name-error" aria-live="assertive"></span> -->
+                <i  class = "formulario__validacion-estado fas " >  </i>
+              </div>
+              <p class="formulario__input-error">los campos no pueden estar vacios</p>
+            </div>
+            <div class="" id="grupo__password">
+              <div class="formulario__grupo-input">
+                <input name="contraseña" type="password" placeholder="ingresa tu contraseña" id="password">
+                <i  class = "formulario__validacion-estado fas  " >  </i>
+              </div>
+              <p class="formulario__input-error">los campos no pueden estar vacios</p>
+            </div>
+            <input type="submit" value="ingresa">
+            <h5>¿no tienes una cuenta? <a href="registro.html">registrate</a> </h5>
+          </form>
+        </div>
+      </section>
+
+    </main>
+    <footer id="pie">
+
+        <div class="containers">
+            <div class="logo3">
+              <a href="index.html" >
+                  <img src="imagenes/LOGOJOSD.jpg" alt="logo de la tienda">
+              </a>
+              <p>la mejor y mas grande<br>
+                tienda de recursos  <br>
+                electronicos
+                  <p>
+            </div>
+            <div class="">
+              <h3 align="center">productos</h3>
+              <ul class="footer-links1">
+                <li><a href="https://www.facebook.com/nesho.sucuzhanay/"><i class="fab fa-facebook"></i>Facebook</a>
+                </li>
+                <li><a href="https://www.instagram.com/nesho.sucuzhanay/?hl=es-la/"><i
+                       class="fab fa-instagram"></i>Instragram</a></li>
+                <li><a
+                      href="https://walink.co/95fee4"><i
+                      class="fab fa-whatsapp"></i>WhatsApp</a></li>
+                <li><a
+                      href="mailto:pinargotejoe@gmail.com?subject=Asesoramiento&body=¡Hola!%20Gracias%20por%20contactarte%20con%20Mundo%20Virtual%20¿Como%20podemos%20ayudarte?"><i
+                      class="far fa-envelope"></i>Gmail </a></li>
+                <li><a href="#"><i class="fas fa-map-marker-alt"></i>Ubicanos</a></li>
+
+              </ul>
+            </div>
+            <div >
+                <h3 align="center">Informacion</h3>
+                <ul class="footer-links1">
+                    <li><a href="#">Informacion </a></li>
+
+                    <li><a href="#">Politica de privacidad</a></li>
+                    <li><a href="#">Terminos & Condiciones</a></li>
+                </ul>
+            </div>
+            <div >
+                <h3 align="center">Servicio</h3>
+                <ul class="footer-links1">
+
+                    <li><a href="productos.html">Ver productos</a></li>
+
+                    <li><a href="#">Seguir mi pedido</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="script/form.js"></script>
+    <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
+  </body>
+</html>
